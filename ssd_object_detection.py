@@ -25,6 +25,11 @@ if use_gpu:
     net.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA)
 
 
+print("[INFO] accessing video stream...")
+if live_video:
+    vs = cv2.VideoCapture(0)
+else:
+    vs = cv2.VideoCapture('test.mp4')
 
 while ret:
     ret, frame = vs.read()
