@@ -64,5 +64,4 @@ while ret:
 
 fps.stop()
 
-print("[INFO] elasped time: {:.2f}".format(fps.elapsed()))
-print("[INFO] approx. FPS: {:.2f}".format(fps.fps()))
+
