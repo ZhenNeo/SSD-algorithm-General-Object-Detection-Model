@@ -3,6 +3,8 @@ import numpy as np
 import imutils
 import cv2
 
+use_gpu = True
+live_video = False
 
 
 confidence_level = 0.5
